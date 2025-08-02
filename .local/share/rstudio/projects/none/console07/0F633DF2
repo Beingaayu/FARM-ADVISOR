@@ -1,0 +1,60 @@
+]0;~[?2004h[rstudio@rstudio-1-79774f4f68-rmc76 ~]$ [K[rstudio@rstudio-1-79774f4f68-rmc76 ~]$ ^V[K[K[rstudio@rstudio-1-79774f4f68-rmc76 ~]$ git init
+[?2004l[33mhint: Using 'master' as the name for the initial branch. This default branch name[m
+[33mhint: is subject to change. To configure the initial branch name to use in all[m
+[33mhint: of your new repositories, which will suppress this warning, call:[m
+[33mhint:[m
+[33mhint: 	git config --global init.defaultBranch <name>[m
+[33mhint:[m
+[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m
+[33mhint: 'development'. The just-created branch can be renamed via this command:[m
+[33mhint:[m
+[33mhint: 	git branch -m <name>[m
+Initialized empty Git repository in /home/rstudio/.git/
+]0;~[?2004h[rstudio@rstudio-1-79774f4f68-rmc76 ~]$ ^C[?2004l[?2004h[?2004l
+]0;~[?2004h[rstudio@rstudio-1-79774f4f68-rmc76 ~]$ git add .
+[?2004l]0;~[?2004h[rstudio@rstudio-1-79774f4f68-rmc76 ~]$ git commit -m "Initial coo [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm mit"
+[?2004lAuthor identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'rstudio@rstudio-1-79774f4f68-rmc76.(none)')
+]0;~[?2004h[rstudio@rstudio-1-79774f4f68-rmc76 ~]$ git remote add orign[Kin http s://github.com/Beingaayu/Farming-Adi[Kvice_[K-AI-Agent
+[?2004l]0;~[?2004h[rstudio@rstudio-1-79774f4f68-rmc76 ~]$ git remote add origin https://github.com/Beingaayu/Farming-Advice-AI-Agent[Acommit -m "Initial commit"[K
+[?2004lAuthor identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'rstudio@rstudio-1-79774f4f68-rmc76.(none)')
+]0;~[?2004h[rstudio@rstudio-1-79774f4f68-rmc76 ~]$ git push -u origin master
+[?2004lerror: src refspec master does not match any
+[31merror: failed to push some refs to 'https://github.com/Beingaayu/Farming-Advice-AI-Agent'
+[m]0;~[?2004h[rstudio@rstudio-1-79774f4f68-rmc76 ~]$ cd FarmingAdviceAgent
+[?2004lbash: cd: FarmingAdviceAgent: No such file or directory
+]0;~[?2004h[rstudio@rstudio-1-79774f4f68-rmc76 ~]$ git confiq --global user.n ame :[K"Shubhangi Srivastava"
+[?2004lgit: 'confiq' is not a git command. See 'git --help'.
+
+The most similar command is
+	config
+]0;~[?2004h[rstudio@rstudio-1-79774f4f68-rmc76 ~]$ git confiq --global user.name "Shubhangi Srivastava"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --global user.nam[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg --global user.na[1@m[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l]0;~[?2004h[rstudio@rstudio-1-79774f4f68-rmc76 ~]$ git config --global user.name "Shubhangi Srivastava"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[Kb"[1P"[C"b"e"i"n"g"a"a"y"u"0"3"A"[1P"@"g"m"a"i";"[1P"l"."c"o"m"[1P "beingaayu03@gmail.com"[C[C[1P "beingaayu03@gmail.com"[C[1P "beingaayu03@gmail.com"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "[1Pbeingaayu03@gmail.com"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce "beingaayu03@gmail.com"m "beingaayu03@gmail.com"[Ca "beingaayu03@gmail.com"[C[Ci "beingaayu03@gmail.com"[C[C[Cl "beingaayu03@gmail.com"[C[C[C[C
+[?2004l]0;~[?2004h[rstudio@rstudio-1-79774f4f68-rmc76 ~]$ git init
+[?2004lReinitialized existing Git repository in /home/rstudio/.git/
+]0;~[?2004h[rstudio@rstudio-1-79774f4f68-rmc76 ~]$ git add .
